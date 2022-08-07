@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+
+  authLoginStateGeneratorAlfabeto: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789',
 };
