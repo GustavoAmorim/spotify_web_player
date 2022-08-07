@@ -38,7 +38,10 @@
             "buildOptimizer": false,
             "sourceMap": true,
             "optimization": false,
-            "namedChunks": true
+            "namedChunks": true,
+            "allowedCommonJsDependencies": [
+              "spotify-web-api-js"
+           ]
           },
           "configurations": {
             "production": {
@@ -119,5 +122,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "102e9799-0c7b-4c9a-bc1d-a864638b4961"
   }
 }
